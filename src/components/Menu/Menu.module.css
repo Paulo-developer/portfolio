@@ -1,0 +1,47 @@
+.Menu_Hamburger {
+    position: relative;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1.5vh;
+}
+
+.container_rotas {
+    top: 0;
+    position: absolute;
+    margin-top: 6vh;
+    border-radius: 1vh;
+    background-color: #060629;
+    padding: 3vw;
+    width: 35vw;
+}
+
+main .linkss {
+    width: 100%;
+    text-align: left;
+    transition: .2s;
+    display: block;
+    color: aliceblue;
+}
+
+main .linkss:hover {
+    background-color: #02020f;
+    transition: .2s;
+    display: block;
+    color: aliceblue;
+}
+
+.b_menu {
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .b_menu {
+        display: block;
+    }
+}

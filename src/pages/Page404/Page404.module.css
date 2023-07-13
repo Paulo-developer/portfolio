@@ -1,0 +1,24 @@
+* {
+    font-family: 'Archivo';
+}
+h4 {
+    font-size: 4rem;
+    color: aqua;
+}
+h1 {
+    font-size: 2rem;
+}
+img {
+    width: 30%;
+}
+@media screen and (max-width: 850px) {
+    h1 {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+    img {
+        width: 60vw;
+    }
+}

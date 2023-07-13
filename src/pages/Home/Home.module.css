@@ -1,0 +1,338 @@
+body {
+    overflow-x: hidden;
+}
+
+p {
+    color: #beb4b4ee;
+    text-indent: 2vw;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7vw;
+}
+
+.home .homep1>h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    line-height: 50px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 2.7rem;
+    width: 45vw;
+    padding-bottom: 15px;
+}
+
+.home .homep1 span {
+    background: rgb(0, 43, 84);
+    background: linear-gradient(67deg, rgb(0, 255, 242) 10%, rgb(18, 92, 124) 26%, rgb(2, 230, 230) 100%);
+    font-family: 'Archivo', sans-serif;
+    width: fit-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+
+.home .homep1>h3 {
+    font-family: 'Archivo', sans-serif;
+    color: rgba(190, 180, 180, 0.932);
+    font-weight: lighter;
+    font-size: 21.3px;
+    margin-top: 6vh;
+}
+
+.home .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+    margin-top: 4vh;
+}
+
+
+.home .buttons button:active {
+    scale: 0.95;
+    transition: 5s;
+}
+
+.home .buttons button i {
+    font-size: 25px;
+    transition: .5s;
+}
+
+.entrarcontato {
+    margin-top: 4vh;
+    background-color: #00ffffb6;
+    padding: 2vh;
+    padding-inline: 2vw;
+    border-radius: 1vh;
+    border: none;
+    transition: .5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+        sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+    color: #000724;
+}
+
+.entrarcontato:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.entrarcontato .a {
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: #000724;
+}
+.home .buttons button:hover i {
+    font-size: 35px;
+    border-radius: 5px;
+    padding: 2%;
+    margin-right: 40%;
+    color: rgb(0, 61, 110);
+}
+
+.home .buttons button:hover {
+    transition: .3s;
+    transform: translateY(-5px);
+    color: transparent;
+}
+
+.home img {
+    margin-top: 1vh;
+    margin-left: 5vw;
+    width: 46vw;
+    height: 54vh;
+    transition: .5s;
+}
+
+.homesobremim {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.homesobremim .sobremim {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: aliceblue;
+    width: 90%;
+    background-color:  #02080c;
+    border-radius: 1vw;
+    padding: 7vh;
+    border: 1px solid #8080802f;
+}
+
+.homesobremim .sobremim .cardsobremim {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    text-align: center;
+    color: aliceblue;
+    width: max-content;
+    height: max-content;
+    border-radius: 1vw;
+    padding: 4vw;
+}
+
+.homesobremim .sobremim .cardsobremim h3 {
+    width: max-content;
+    background-color: #00022400;
+    color: rgb(161, 159, 159);
+    padding: 1vh;
+    border: 1px solid #8080802f;
+    border-radius: 5px;
+}
+
+.homesobremim .sobremim .cardsobremim img {
+    border-radius: 10%;
+    width: 15vw;
+}
+
+.homesobremim .sobremim .cardsobremim .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #8080802f;
+    border-radius: 1vh;
+    background-color: #021d1d00;
+    backdrop-filter: blur(10px);
+    padding-block: 10px;
+    padding-inline: 15px;
+}
+
+.homesobremim .sobremim .cardsobremim .social a {
+    color: rgba(0, 255, 255, 0.658);
+}
+
+.homesobremim .sobremim .cardsobremim .social button {
+    gap: 1vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    color: aqua;
+    border: none;
+    border-radius: 5px;
+    height: max-content;
+    width: max-content;
+    background: #00072400;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.homesobremim .sobremim .cardsobremim .social button:hover {
+    scale: 1.2;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3vh;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding-inline: 4vw;
+    padding-block: 10vh;
+    height: 100%;
+}
+
+.textosobremim {
+    border: 1px solid rgb(2, 27, 27);
+    border-radius: 1vh;
+    width: 100%;
+}
+
+.bio button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2vh;
+    color: black;
+    border-radius: 1vh;
+    font-size: 15px;
+    background-color: #00ffffb6;
+    font-weight: 500;
+    border: 1px solid #000724;
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.bio button .bi-arrow-right {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bio button:hover {
+    border: 1px solid aqua;
+    background-color: #00072400;
+    color: aqua;
+    transition: .5s;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.bio button i:hover {
+    color: transparent;
+}
+
+.bio h3 {
+    width: max-content;
+    border-bottom: 5px solid aqua;
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        overflow-x: scroll;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5vw;
+        padding-block: 13vh;
+    }
+
+    .home .homep1 h2 {
+        width: 100%;
+        font-size: 2.2rem;
+    }
+
+    .home .homep1 h2 span {
+        width: 100%;
+        font-size: 2.2rem;
+    }
+
+    .home .homep1 h3 {
+        width: 100%;
+        font-size: 1.25rem;
+    }
+
+    .home .homep1 h3 {
+        width: 100%;
+        font-size: 1.25rem;
+    }
+
+    .home .homep2 img {
+        display: none;
+    }
+
+    .sobremim {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5vh;
+        width: 100%;
+    }
+
+    .homesobremim .sobremim .cardsobremim {
+        border: 1px solid #8080802f;
+        width: 100%;
+    }
+
+    .homesobremim .sobremim .cardsobremim h1 {
+        font-size: 1.6rem;
+    }
+
+    .homesobremim .sobremim .cardsobremim img {
+        width: 50%;
+    }
+
+    .textosobremim {
+        margin: 1em;
+    }
+
+    .bio {
+        display: flex;
+        justify-content: flex-start;
+        gap: 4vh;
+        text-align: left;
+        align-items: center;
+        padding-inline: 5vh;
+        padding-block: 5.8vh;
+        width: 100%;
+    }
+
+    .bio p {
+        line-height: 4vh;
+        text-indent: 6vw;
+    }
+
+    .bio button {
+        
+        gap: 2vw;
+        height: 7.5vh;
+    }
+}

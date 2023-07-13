@@ -1,0 +1,14 @@
+footer {
+    font-size: .900rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2vh;
+}
+footer p {
+    color: grey;
+}
+footer a {
+    color: #00ffff;
+}
